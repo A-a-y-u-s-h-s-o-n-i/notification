@@ -1,0 +1,11 @@
+1. Create firebase-messaging-sw.js and in firebase-messaging-sw.js file please change the senderId collect from firebase.
+
+2. Create manifest.json and remains the file same do not change anything in it.
+
+3. In angular.json file add both the manifest file and firebase-messaging-sw.js in assets[].
+
+4. In environment folder there is a file environment.ts open it and change everything from firebase config.
+
+for more Information visit to the given link
+
+https://medium.com/@a.adendrata/push-notifications-with-angular-6-firebase-cloud-massaging-dbfb5fbc0eeb
